@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Welcome | ChaloBuliba</title>
+    <link rel="icon" type="image/x-icon" href="./img/cb.PNG">
+    <script src="https://kit.fontawesome.com/03372dce75.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <img src="./img/cb.jpg" alt="">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./about.html">About</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <h1 class="lg-heading text-light">Welcome To <span id="element"></span></h1>
+            <p class="text-light">travel the world, experiance the greatness, it's the best gift given by nature</p>
+            <a href="#explore-pages" class="btn btn-primary text-red md-heading">Explore Places</a>
+        </div>
+    </header>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Chalo Buliba', 'Travel Website.'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+
+    <section class="showcase" id="explore-pages">
+        <div class="container">
+            <div class="row row1">
+                <div class="img-box">
+                    <img src="./img/showcase-photo3.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="lg-heading text-black">DEGANVY, U.K</h2>
+                    <p class="text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt cumque
+                        deleniti dicta natus nulla voluptatum itaque quaerat recusandae magni. Magnam, delectus ab
+                        exercitationem excepturi ipsum recusandae nihil nisi perspiciatis. Fuga?</p>
+                    <a href="./about.html" class="btn btn-secondary text-red">More</a>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="img-box">
+                    <img src="./img/showcase-photo1.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h2 class="lg-heading text-black">DESERT, EGYPT</h2>
+                    <p class="text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt cumque
+                        deleniti dicta natus nulla voluptatum itaque quaerat recusandae magni. Magnam, delectus ab
+                        exercitationem excepturi ipsum recusandae nihil nisi perspiciatis. Fuga?</p>
+                    <a href="./about.html" class="btn btn-secondary text-red">More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="box-wrapper">
+                <div class="box box-1">
+                    <i class="fa-solid fa-route fa-2x text-red"></i>
+                    <h2 class="md-heading text-bold">Adventurous</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati nobis fuga. Magni eos
+                        quae
+                        illum laboriosam, consequatur provident ipsa.</p>
+                </div>
+                <div class="box box-2">
+                    <i class="fa-solid fa-strikethrough fa-2x"></i>
+                    <h2 class="md-heading text-bold">Less Price</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati nobis fuga. Magni eos
+                        quae
+                        illum laboriosam, consequatur provident ipsa.</p>
+                </div>
+                <div class="box box-3">
+                    <i class="fa-solid fa-user-check fa-2x text-red"></i>
+                    <h2 class="md-heading text-bold">Experience</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas obcaecati nobis fuga. Magni eos
+                        quae
+                        illum laboriosam, consequatur provident ipsa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-media-links">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+            <i class="fa-brands fa-twitter fa-3x"></i>
+            <i class="fa-brands fa-instagram fa-3x"></i>
+            <p>World Travel &copy;2023, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
